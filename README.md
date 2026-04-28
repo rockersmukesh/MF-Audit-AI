@@ -11,7 +11,7 @@
 [![Gemini AI](https://img.shields.io/badge/Gemini-2.5%20Flash-orange?logo=google)](https://ai.google.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**FairLens AI** is a full-stack web application that uses Google Gemini to detect bias, discrimination, and unfairness in HR datasets, hiring data, and company policy documents.
+**MF-Audit-AI** is a full-stack web application that uses Google Gemini to detect bias, discrimination, and unfairness in HR datasets, hiring data, and company policy documents.
 
 </div>
 
