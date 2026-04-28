@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { 
-  LayoutDashboard, 
-  ShieldCheck, 
+import {
+  LayoutDashboard,
+  ShieldCheck,
   LogOut,
-  Plus, 
+  Plus,
   Database,
   BarChart3,
   CircleDashed,
@@ -30,7 +30,7 @@ export function Sidebar() {
             <CircleDashed className="w-5 h-5 text-white" />
           </div>
           <div>
-            <h1 className="text-lg font-bold text-slate-800 font-sans tracking-tight leading-none">MF Audits</h1>
+            <h1 className="text-lg font-bold text-slate-800 font-sans tracking-tight leading-none">MF Audit</h1>
             <p className="text-[10px] uppercase font-bold text-slate-400 mt-1 tracking-widest">Enterprise Tier</p>
           </div>
         </Link>
@@ -46,8 +46,8 @@ export function Sidebar() {
               to={item.path}
               className={cn(
                 "w-full flex items-center gap-3 px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 group",
-                isActive 
-                  ? "bg-indigo-50 text-indigo-600 shadow-sm" 
+                isActive
+                  ? "bg-indigo-50 text-indigo-600 shadow-sm"
                   : "text-slate-500 hover:bg-slate-50 hover:text-slate-900"
               )}
             >

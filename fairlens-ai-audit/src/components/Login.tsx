@@ -10,7 +10,7 @@ export function Login() {
         <div className="hidden md:flex md:w-1/2 bg-gradient-to-br from-indigo-50 to-indigo-100 p-12 flex-col justify-between relative">
           <div className="absolute inset-0 bg-white/20 backdrop-blur-2xl" />
           <div className="relative z-10">
-            <h1 className="text-4xl font-black text-indigo-600 italic tracking-tighter">MF Audits</h1>
+            <h1 className="text-4xl font-black text-indigo-600 italic tracking-tighter">MF Audit</h1>
             <p className="text-slate-600 mt-6 font-medium text-lg leading-relaxed max-w-sm">
               Enterprise-grade bias detection and drift analysis for responsible AI.
             </p>

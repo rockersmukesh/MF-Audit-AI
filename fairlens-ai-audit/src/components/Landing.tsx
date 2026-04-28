@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { 
+import {
   ArrowRight, ShieldCheck, BarChart3, Database, Network, CircleDashed, CheckCircle2
 } from 'lucide-react';
 
 export function Landing() {
   return (
     <div className="min-h-screen bg-white font-sans text-slate-900 selection:bg-indigo-100 selection:text-indigo-900">
-      
+
       {/* Navigation */}
       <nav className="flex items-center justify-between px-8 py-6 max-w-7xl mx-auto">
         <div className="flex items-center gap-8">
@@ -15,7 +15,7 @@ export function Landing() {
             <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center font-bold">
               <CircleDashed className="w-5 h-5 text-white" />
             </div>
-            <span className="text-xl font-bold tracking-tight">MF Audits</span>
+            <span className="text-xl font-bold tracking-tight">MF Audit</span>
           </Link>
           <div className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-500">
             <a href="#features" className="hover:text-slate-900 transition-colors">Features</a>
@@ -53,7 +53,7 @@ export function Landing() {
             </button>
           </div>
         </div>
-        
+
         {/* Abstract Dashboard Graphic */}
         <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-tr from-indigo-100 to-rose-50 rounded-3xl blur-3xl opacity-50" />
@@ -108,7 +108,7 @@ export function Landing() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">
-          
+
           {/* Card 1: Scanning */}
           <div className="md:col-span-2 bg-slate-50 rounded-3xl p-8 lg:p-12 border border-slate-100 overflow-hidden relative group">
             <div className="w-12 h-12 bg-indigo-600 rounded-xl flex items-center justify-center mb-6 text-white shadow-lg shadow-indigo-600/20">
@@ -119,11 +119,11 @@ export function Landing() {
               Real-time monitoring of live models to detect drift and emerging biases as your data evolves over time. Automated triggers alert your engineering team before production impacts.
             </p>
             <div className="absolute -right-12 -bottom-24 w-[120%] aspect-[2/1] rounded-t-3xl bg-slate-900 shadow-2xl flex items-center justify-center overflow-hidden">
-               {/* Abstract soundwave/data visual */}
+              {/* Abstract soundwave/data visual */}
               <div className="flex items-center justify-center gap-1 opacity-80 mix-blend-screen px-24">
-                {Array.from({length: 40}).map((_, i) => (
-                  <div key={i} className="w-1.5 bg-cyan-400 rounded-full" 
-                       style={{ height: `${Math.random() * 100 + 10}px`, opacity: Math.random() * 0.5 + 0.3 }} />
+                {Array.from({ length: 40 }).map((_, i) => (
+                  <div key={i} className="w-1.5 bg-cyan-400 rounded-full"
+                    style={{ height: `${Math.random() * 100 + 10}px`, opacity: Math.random() * 0.5 + 0.3 }} />
                 ))}
               </div>
             </div>
@@ -167,7 +167,7 @@ export function Landing() {
           <div className="md:col-span-2 bg-slate-900 rounded-3xl p-8 lg:p-10 border border-slate-800 text-white flex flex-col justify-end relative overflow-hidden">
             {/* Background pattern */}
             <div className="absolute inset-0 opacity-20 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-indigo-300 via-slate-900 to-slate-900" />
-            
+
             <div className="relative z-10 mt-32">
               <h3 className="text-xl font-bold text-white mb-2">Institutional-Grade Infrastructure</h3>
               <p className="text-slate-400 text-sm max-w-md">
@@ -202,11 +202,11 @@ export function Landing() {
         <div className="max-w-4xl mx-auto px-8 relative">
           <div className="text-[120px] font-black text-slate-200 absolute -top-8 -left-4 leading-none opacity-50">"</div>
           <blockquote className="relative z-10 text-2xl md:text-3xl font-medium text-slate-800 leading-snug tracking-tight mb-8">
-            MF Audits has transformed how we approach model deployment. We no longer wonder if there's hidden bias—we know exactly where it is and how to fix it before it affects a single customer.
+            MF Audit has transformed how we approach model deployment. We no longer wonder if there's hidden bias—we know exactly where it is and how to fix it before it affects a single customer.
           </blockquote>
           <div className="flex items-center gap-4">
             <div className="w-12 h-12 rounded-full overflow-hidden bg-slate-200">
-               <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=128&h=128&auto=format&fit=crop" alt="Sarah Chen" className="w-full h-full object-cover grayscale" />
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=128&h=128&auto=format&fit=crop" alt="Sarah Chen" className="w-full h-full object-cover grayscale" />
             </div>
             <div>
               <div className="font-bold text-slate-900">Sarah Chen</div>
@@ -221,7 +221,7 @@ export function Landing() {
         <div className="bg-indigo-700 rounded-[2.5rem] p-12 md:p-20 text-center relative overflow-hidden shadow-2xl">
           <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10" />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent to-indigo-900/50" />
-          
+
           <div className="relative z-10 min-h-[300px] flex flex-col justify-center items-center">
             <h2 className="text-4xl font-black text-white mb-6">Ready to lead with trustworthy AI?</h2>
             <p className="text-indigo-200 text-lg max-w-xl mx-auto mb-10">
@@ -243,8 +243,8 @@ export function Landing() {
       <footer className="border-t border-slate-100 bg-white pt-16 pb-8">
         <div className="max-w-7xl mx-auto px-8 flex justify-between items-center text-sm font-medium text-slate-400">
           <div>
-            <span className="font-bold text-slate-900 block mb-1">MF Audits</span>
-            <p>&copy; {new Date().getFullYear()} MF Audits. Engineering Trust in Artificial Intelligence.</p>
+            <span className="font-bold text-slate-900 block mb-1">MF Audit</span>
+            <p>&copy; {new Date().getFullYear()} MF Audit. Engineering Trust in Artificial Intelligence.</p>
           </div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-slate-900">Privacy Policy</a>

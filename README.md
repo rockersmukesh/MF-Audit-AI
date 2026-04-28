@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔍 FairLens AI
+# 🔍 MF-Audit-AI
 
 ### AI-Powered Bias Detection & Algorithmic Fairness Auditor
 

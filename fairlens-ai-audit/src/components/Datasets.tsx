@@ -148,7 +148,8 @@ export function Datasets() {
         formData.append('context', 'dataset');
       }
 
-      const res = await fetch(`http://localhost:5000${endpoint}`, {
+      const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+      const res = await fetch(`${API_BASE}${endpoint}`, {
         method: 'POST',
         body: formData,
       });
